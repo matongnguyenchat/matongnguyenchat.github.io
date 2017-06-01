@@ -31,6 +31,13 @@ nav .brand-logo img{
 nav ul a:hover{
     background: none;
 }
+nav,nav *{
+    -webkit-transition: height .2s;
+    -moz-transition: height .2s;
+    -ms-transition: height .2s;
+    -o-transition: height .2s;
+    transition: height .2s;
+}
 #sidenav-overlay {
     z-index: 996;
 }
@@ -184,5 +191,19 @@ a:hover{
     }
     .article-inline .article-info {
         padding: 0.75rem;
+    }
+    .scroll-down {
+        line-height: 40px !important;
+        height: 40px !important;
+    }
+    .scroll-down .button-collapse,.scroll-down .button-collapse i{
+        height: 40px;
+        line-height: 40px;
+    }
+    .scroll-down .side-nav li{
+        line-height: 1;
+    }
+    .scroll-down .brand-logo{
+        padding: 5px;
     }
 }
