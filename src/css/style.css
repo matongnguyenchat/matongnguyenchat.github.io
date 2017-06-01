@@ -38,6 +38,24 @@ nav,nav *{
     -o-transition: height .2s;
     transition: height .2s;
 }
+.side-nav .userView {
+    position: relative;
+    padding: 32px 32px 0;
+    margin-bottom: 8px;
+}
+.side-nav .userView a{
+    text-transform: none;
+}
+.side-nav .userView .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
 #sidenav-overlay {
     z-index: 996;
 }
