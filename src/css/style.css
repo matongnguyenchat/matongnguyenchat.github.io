@@ -1,0 +1,59 @@
+nav{
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+nav ul a{
+    color: #333;
+    text-transform: uppercase;
+}
+nav .button-collapse{
+    color: #333;
+}
+header{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.13);
+    background: #FFF;
+}
+.wrapper{
+    background: #eee;
+}
+img{
+    max-width: 100%;
+}
+
+a{
+    color: #333;
+    transition: color 0.2s;
+}
+a:hover{
+    color: #dc5034;
+}
+.articles{
+
+}
+.articles .article{
+    background: #fff;
+    margin-top: 2em;
+}
+.article .article-title{
+    font-size: 30px;
+    color: #333;
+}
+.article .article-title:hover{
+    color: #dc5034;
+}
+.article .article-info{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.article img{
+    width: 100%;
+}
+.article .article-info p{
+    color: #757575;
+}
+.article .article-info .read-more{
+    color: #333;
+}
+.article .article-info .read-more:hover{
+    color: #dc5034;
+}
