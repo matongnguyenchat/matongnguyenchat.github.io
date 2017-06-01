@@ -1,6 +1,7 @@
 nav{
     background-color: #fff;
-    border-bottom: 1px solid #eee;
+    box-shadow: none;
+    /*border-bottom: 1px solid #eee;*/
 }
 nav ul a{
     color: #333;
@@ -12,6 +13,10 @@ nav .button-collapse{
 header{
     box-shadow: 0 1px 3px rgba(0,0,0,0.13);
     background: #FFF;
+}
+header .container{
+    box-shadow: none;
+    border: none;
 }
 .wrapper{
     background: #eee;
